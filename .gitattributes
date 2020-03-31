@@ -1,0 +1,6 @@
+# Volt gets upset if its files have DOS line endings
+dotfiles/volt/**/*.vim eol=lf
+dotfiles/volt/lock.json eol=lf
+
+# Git likes Unix line endings too
+dotfiles/.gitconfig eol=lf

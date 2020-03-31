@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "current_profile_name": "default",
+  "repos": [
+    {
+      "type": "git",
+      "path": "github.com/PProvost/vim-ps1",
+      "version": "9fdf92846fbeb8445e535cf0c5bdb4b1dce4a506"
+    },
+    {
+      "type": "git",
+      "path": "github.com/chriskempson/base16-vim",
+      "version": "6191622d5806d4448fa2285047936bdcee57a098"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf",
+      "version": "0f5c6e8f040833ca632bb5ff345542879769225c"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf.vim",
+      "version": "d4d36b412bdc53e8bdaf0e2714a2227f51781d68"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/vim-easy-align",
+      "version": "12dd6316974f71ce333e360c0260b4e1f81169c3"
+    },
+    {
+      "type": "git",
+      "path": "github.com/justinmk/vim-sneak",
+      "version": "98a5c946d6dc76528b9d9b044059b5ef1fab5a48"
+    },
+    {
+      "type": "git",
+      "path": "github.com/morhetz/gruvbox",
+      "version": "040138616bec342d5ea94d4db296f8ddca17007a"
+    },
+    {
+      "type": "git",
+      "path": "github.com/mtth/scratch.vim",
+      "version": "6df617ebc0695bd9839a4fe365a08df13d24bc05"
+    },
+    {
+      "type": "git",
+      "path": "github.com/scrooloose/nerdtree",
+      "version": "343508e9fd981928f1e830c71c9d8b2a54edb7dd"
+    },
+    {
+      "type": "git",
+      "path": "github.com/tpope/vim-surround",
+      "version": "f51a26d3710629d031806305b6c8727189cd1935"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "default",
+      "repos_path": [
+        "github.com/PProvost/vim-ps1",
+        "github.com/chriskempson/base16-vim",
+        "github.com/junegunn/fzf",
+        "github.com/junegunn/fzf.vim",
+        "github.com/junegunn/vim-easy-align",
+        "github.com/justinmk/vim-sneak",
+        "github.com/morhetz/gruvbox",
+        "github.com/mtth/scratch.vim",
+        "github.com/scrooloose/nerdtree",
+        "github.com/tpope/vim-surround"
+      ]
+    }
+  ]
+}
