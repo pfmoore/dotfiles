@@ -3,59 +3,6 @@ Remove-Item -Force -ErrorAction SilentlyContinue alias:curl
 Remove-Item -Force -ErrorAction SilentlyContinue alias:wget
 Remove-Item -Force -ErrorAction SilentlyContinue alias:diff
 
-# Support Groovy
-# Get the latest version of Groovy in C:\Utils\Java
-# $groovy = (dir C:\Utils\Java\groovy-* | sort @{Expression={[Version](($_.name -split '-')[1])}; Ascending=$false} | select -first 1).fullName
-# $env:GROOVY_HOME = $groovy
-# $env:PATH += ";$groovy/bin"
-
-function Reset-Colours {
-    $host.ui.rawui.foregroundcolor = 'Gray'
-    $host.ui.rawui.backgroundcolor = 'Black'
-}
-
-# Make net.webrequest authenticate through the proxy
-[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials
-
-$env:http_proxy = "http://localhost:3128"
-$env:https_proxy = "http://localhost:3128"
-$env:JAVA_OPTS = "-Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=3128"
-
-function proxy
-{
-param(
-    [Parameter()]
-    [ValidateSet('start','stop','activate','deactivate')]
-    [string]
-    $Action
-)
-    switch ($Action) {
-        "activate" {
-            $env:http_proxy = "http://localhost:3128"
-            $env:https_proxy = "http://localhost:3128"
-            $env:JAVA_OPTS = "-Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=3128"
-        }
-        "start" {
-            px --proxy=157.203.2.90:84
-            $env:http_proxy = "http://localhost:3128"
-            $env:https_proxy = "http://localhost:3128"
-            $env:JAVA_OPTS = "-Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=3128"
-        }
-        "deactivate" {
-            del -ea 0 env:http_proxy
-            del -ea 0 env:https_proxy
-            del -ea 0 env:JAVA_OPTS
-        }
-        "stop" {
-            del -ea 0 env:http_proxy
-            del -ea 0 env:https_proxy
-            del -ea 0 env:JAVA_OPTS
-            px --quit
-        }
-    }
-}
-# Make Java use CNTLM proxy
-
 function Show-VcsPrompt {
     # Raw search of repo data, using commands is too slow...
     $root = (Get-Location)
@@ -173,10 +120,11 @@ $envstack = New-Object Collections.Stack
 
 # set-alias git "C:\Utils\Git\bin\git.exe"
 # set-alias hg "C:\Program Files\Mercurial\hg.exe"
-set-alias sqlite3 "C:\Utils\Misc\sqlite3.exe"
-set-alias perl C:\Utils\Perl\perl\bin\perl.exe
-set-alias perldoc C:\Utils\Perl\perl\bin\perldoc.bat
-set-alias vboxmanage "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
+# set-alias sqlite3 "C:\Utils\Misc\sqlite3.exe"
+# set-alias perl C:\Utils\Perl\perl\bin\perl.exe
+# set-alias perldoc C:\Utils\Perl\perl\bin\perldoc.bat
+# set-alias psql "C:\Program Files\PostgreSQL\9.3\bin\psql.exe"
+# set-alias vboxmanage "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 
 function bd ($p) {
     Push-Location
