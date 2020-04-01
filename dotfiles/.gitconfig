@@ -1,4 +1,21 @@
-# This is Git's per-user configuration file.
 [user]
-name = Paul Moore
-email = p.f.moore@gmail.com
+	name = Paul Moore
+	email = p.f.moore@gmail.com
+[github]
+	user = pfmoore
+[credential]
+	helper = manager
+[alias]
+	pr = !sh -c 'git fetch upstream pull/${1}/head:pr_${1} && git checkout pr_${1}' -
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = simple
+
+[url "https://github.com/"]
+    insteadOf = gh:
+
+[url "https://gist.github.com/"]
+    insteadOf = gist:
+
+[url "https://bitbucket.org/"]
+    insteadOf = bb:
