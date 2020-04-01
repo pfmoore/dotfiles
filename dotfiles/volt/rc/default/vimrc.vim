@@ -94,7 +94,7 @@ filetype plugin indent on
 
 " There is no need for a separate gvimrc file...
 if has('gui_running')
-    set guifont=Source_Code_Pro:h12,DejaVu_Sans_Mono:h12,Consolas:h12,Courier_New:h12
+    set guifont=Cascadia_Code_PL:h14,Source_Code_Pro:h14,DejaVu_Sans_Mono:h14,Consolas:h14,Courier_New:h14
     set background=dark
     " Set colour scheme, fall back to built in 'desert' scheme
     try

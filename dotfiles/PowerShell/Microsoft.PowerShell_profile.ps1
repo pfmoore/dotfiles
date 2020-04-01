@@ -3,6 +3,16 @@ Remove-Item -Force -ErrorAction SilentlyContinue alias:curl
 Remove-Item -Force -ErrorAction SilentlyContinue alias:wget
 Remove-Item -Force -ErrorAction SilentlyContinue alias:diff
 
+# PSReadLine
+# ==========
+
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# Prompt Handling
+# ===============
+
 function Show-VcsPrompt {
     # Raw search of repo data, using commands is too slow...
     $root = (Get-Location)
@@ -59,6 +69,9 @@ function prompt
     #}
     ">"
 }
+
+# Utility Functions
+# =================
 
 function Join-File (
     [parameter(Position=0,Mandatory=$true,ValueFromPipeline=$true)]
@@ -161,23 +174,16 @@ function google {
     start "https://www.google.co.uk/search?q=$args"
 }
 
+function rust_pg {
+    start "https://play.rust-lang.org/"
+}
+
+function pep {
+    start ("https://www.python.org/dev/peps/pep-{0:d4}/" -f $args)
+}
+
 # Wrapping commands with arguments
 function nl_sample {
   # Number lines in a file using perl
   $input | perl -pe '$_ = qq($. $_)' $args
 }
-
-# wget http://psget.net/GetPsGet.ps1
-# . GetPsGet.ps1
-# Install-Module PsReadLine
-# Install-Module TabExpansion++
-# Install-Module PsWatch
-# Install-Module PsUrl
-# Install-Module PowerYaml
-
-function Imp ($name) {
-    Write-Host -NoNewLine -Fore Green "Loading module $name..."
-    Import-Module $name
-    Write-Host -Fore Green " OK"
-}
-
