@@ -1,0 +1,217 @@
+{
+   ".header" : {
+      "creator" : "Keypirinha v2.24 (06cbb5c)",
+      "creator_url" : "http://keypirinha.com/",
+      "format" : 102,
+      "modified" : "2020-04-23T18:52:14+0100",
+      "type" : "history"
+   },
+   "history" : [
+      {
+         "action" : 10512527877299607837,
+         "item" : 715288401579400771,
+         "label" : "PEP 503: Simple Repository API -> Open",
+         "time" : "2020-04-21T20:39:37+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:39:37+0100"
+      },
+      {
+         "action" : null,
+         "item" : 715288401579400771,
+         "label" : "PEP 503: Simple Repository API",
+         "time" : "2020-04-21T20:41:00+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:41:00+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:41:52+0100"
+      },
+      {
+         "action" : null,
+         "item" : 6128289598095354314,
+         "label" : "PEP 517: A build-system independent format for source trees",
+         "time" : "2020-04-21T20:41:52+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:42:09+0100"
+      },
+      {
+         "action" : 10512527877299607837,
+         "item" : 6128289598095354314,
+         "label" : "PEP 517: A build-system independent format for source trees -> Open",
+         "time" : "2020-04-21T20:42:09+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:42:59+0100"
+      },
+      {
+         "action" : null,
+         "item" : 6128289598095354314,
+         "label" : "PEP 517: A build-system independent format for source trees",
+         "time" : "2020-04-21T20:42:59+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:43:40+0100"
+      },
+      {
+         "action" : 7623148714192834451,
+         "item" : 14848463885130427362,
+         "label" : "PEP 517: A build-system independent format for source trees -> Open",
+         "time" : "2020-04-21T20:43:40+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:43:54+0100"
+      },
+      {
+         "action" : 3149169643845775221,
+         "item" : 14848463885130427362,
+         "label" : "PEP 517: A build-system independent format for source trees -> Copy as Markdown",
+         "time" : "2020-04-21T20:43:54+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:44:41+0100"
+      },
+      {
+         "action" : 3149169643845775221,
+         "item" : 14848463885130427362,
+         "label" : "PEP 517: A build-system independent format for source trees -> Copy as Markdown",
+         "time" : "2020-04-21T20:44:41+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-21T20:46:55+0100"
+      },
+      {
+         "action" : null,
+         "item" : 2004916378625117214,
+         "label" : "PEP:",
+         "time" : "2020-04-22T07:18:45+0100"
+      },
+      {
+         "action" : null,
+         "item" : 8109332036741147769,
+         "label" : "Keypirinha: Browse Profile Dir",
+         "time" : "2020-04-23T18:52:14+0100"
+      }
+   ],
+   "sets" : {
+      "actions" : [
+         {
+            "id" : 3149169643845775221,
+            "label" : "Copy as Markdown",
+            "name" : "copy_md",
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "Copy a Markdown link to the URL"
+         },
+         {
+            "id" : 7623148714192834451,
+            "label" : "Open",
+            "name" : "open",
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "Open the PEP in a browser"
+         },
+         {
+            "id" : 10512527877299607837,
+            "label" : "Open",
+            "name" : "browse",
+            "plugin" : "App",
+            "short_desc" : "Open URL"
+         }
+      ],
+      "items" : [
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 8109332036741147769,
+            "label" : "Keypirinha: Browse Profile Dir",
+            "loop_on_suggest" : false,
+            "plugin" : "Internal.About",
+            "short_desc" : "Browse your configuration files and packages",
+            "target" : "browse_profiledir"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "url",
+            "hit_hint" : "keepall",
+            "id" : 715288401579400771,
+            "label" : "PEP 503: Simple Repository API",
+            "loop_on_suggest" : false,
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "Simple Repository API",
+            "target" : "https://www.python.org/dev/peps/pep-0503/"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "url",
+            "hit_hint" : "keepall",
+            "id" : 6128289598095354314,
+            "label" : "PEP 517: A build-system independent format for source trees",
+            "loop_on_suggest" : false,
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "A build-system independent format for source trees",
+            "target" : "https://www.python.org/dev/peps/pep-0517/"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "#1001",
+            "hit_hint" : "keepall",
+            "id" : 14848463885130427362,
+            "label" : "PEP 517: A build-system independent format for source trees",
+            "loop_on_suggest" : false,
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "A build-system independent format for source trees",
+            "target" : "https://www.python.org/dev/peps/pep-0517/"
+         },
+         {
+            "args_hint" : "required",
+            "category" : "keyword",
+            "hit_hint" : "keepall",
+            "id" : 2004916378625117214,
+            "label" : "PEP:",
+            "loop_on_suggest" : false,
+            "plugin" : "Personal.PEPs",
+            "short_desc" : "Python PEPs",
+            "target" : "PEP"
+         }
+      ],
+      "terms" : [
+         {
+            "items" : [ 2004916378625117214 ],
+            "search" : "pep"
+         },
+         {
+            "items" : [ 8109332036741147769 ],
+            "search" : "prof"
+         }
+      ]
+   }
+}
