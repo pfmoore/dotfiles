@@ -13,6 +13,9 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 # Prompt Handling
 # ===============
 
+# We do our own prompt management
+$env:VIRTUAL_ENV_DISABLE_PROMPT = "yes"
+
 function Show-VcsPrompt {
     # Raw search of repo data, using commands is too slow...
     $root = (Get-Location)
@@ -180,6 +183,17 @@ function rust_pg {
 
 function pep {
     start ("https://www.python.org/dev/peps/pep-{0:d4}/" -f $args)
+}
+
+function gh {
+    if ($args.length -gt 1) {
+        $user = $args[0]
+        $project = $args[1]
+    } else {
+        $user = "pfmoore"
+        $project = $args[0]
+    }
+    start "https://github.com/$user/$project"
 }
 
 # Wrapping commands with arguments
