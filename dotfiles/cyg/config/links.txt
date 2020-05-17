@@ -1,4 +1,5 @@
 base64
+bc
 cksum
 cmp
 comm
@@ -36,5 +37,7 @@ sum
 tee
 tr
 uniq
+unzip
 wc
 xz
+zip
