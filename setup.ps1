@@ -101,3 +101,6 @@ pipx install virtualenv
 #   VS Code:
 #       Install Settings Sync
 #       Configure it with info from keepass
+#   Powershell:
+#       copy dotfiles/powershell/PowerShell.ps1 ~/.local/config
+#       copy dotfiles/powershell/LocalProfile.ps1 $profile
