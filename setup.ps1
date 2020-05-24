@@ -1,5 +1,5 @@
 # Set basic configuration variables
-[Environmnet]::SetEnvironmentVariable("WORK_DIRECTORY", "C:\Work\Scratch", "User")
+[Environment]::SetEnvironmentVariable("WORK_DIRECTORY", "C:\Work\Scratch", "User")
 
 # PATH should have
 #   ~/.local/scripts
