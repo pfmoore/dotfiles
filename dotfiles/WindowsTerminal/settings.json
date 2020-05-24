@@ -13,7 +13,7 @@
     {
         "defaults":
         {
-            "startingDirectory" : "C:/Work/Scratch",
+            "startingDirectory" : "%WORK_DIRECTORY%",
             "backgroundImage": "ms-appdata:///Local/desk-without-paper.png",
             "backgroundImageOpacity": 0.3
         },
