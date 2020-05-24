@@ -1,0 +1,526 @@
+{
+    "name": "ueffel's Package Repository",
+    "url": "https://ue.spdns.de/packagecontrol/packages.json",
+    "packages": [
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-PackageControl/releases/download/1.0.2/PackageControl.keypirinha-package",
+            "name": "Keypirinha-PackageControl",
+            "filename": "PackageControl.keypirinha-package",
+            "date": "2019-10-19T12:51:35+0000",
+            "description": "Provides commands to install/update/remove Keypirinha Packages",
+            "version": "1.0.2",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-PackageControl"
+        },
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-Plugin-Kill/releases/download/2.8/Kill.keypirinha-package",
+            "name": "Keypirinha-Plugin-Kill",
+            "filename": "Kill.keypirinha-package",
+            "date": "2020-04-19T13:33:28+0000",
+            "description": "Provides a command to kill a running processes.",
+            "version": "2.8",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-Plugin-Kill"
+        },
+        {
+            "download_url": "https://raw.githubusercontent.com/EhsanKia/keypirinha-plugins/d367f0df55ac512c7c36987b2e47c185a08c52fd/keypirinha-steam/build/Steam.keypirinha-package",
+            "name": "Steam",
+            "filename": "Steam.keypirinha-package",
+            "date": "2019-02-27T18:46:10+0000",
+            "description": "no description",
+            "version": "1.0.0+d367f0d",
+            "owner": "EhsanKia",
+            "homepage": "https://github.com/EhsanKia/keypirinha-plugins/tree/master/keypirinha-steam/build/Steam.keypirinha-package"
+        },
+        {
+            "download_url": "https://github.com/ArmaniKorsich/Keypirinha-Units/releases/download/1.0/Units.keypirinha-package",
+            "name": "Keypirinha-Units",
+            "filename": "Units.keypirinha-package",
+            "date": "2017-12-25T19:57:11+0000",
+            "description": "A unit conversion plugin for KeyPirinha",
+            "version": "1.0",
+            "owner": "ArmaniKorsich",
+            "homepage": "https://github.com/ArmaniKorsich/Keypirinha-Units"
+        },
+        {
+            "download_url": "https://raw.githubusercontent.com/EhsanKia/keypirinha-plugins/2de7ce7a4d6cbfe141de8a8015a71df41be7d151/keypirinha-launchy/build/Launchy.keypirinha-package",
+            "name": "Launchy",
+            "filename": "Launchy.keypirinha-package",
+            "date": "2017-05-23T07:56:22+0000",
+            "description": "no description",
+            "version": "1.0.0+2de7ce7",
+            "owner": "EhsanKia",
+            "homepage": "https://github.com/EhsanKia/keypirinha-plugins/tree/master/keypirinha-launchy/build/Launchy.keypirinha-package"
+        },
+        {
+            "download_url": "https://github.com/AvatarHurden/keypirinha-currency/releases/download/v2.1/Currency.keypirinha-package",
+            "name": "keypirinha-currency",
+            "filename": "Currency.keypirinha-package",
+            "date": "2019-03-21T21:31:32+0000",
+            "description": "A currency converter plugin for Keypirinha",
+            "version": "v2.1",
+            "owner": "AvatarHurden",
+            "homepage": "https://github.com/AvatarHurden/keypirinha-currency"
+        },
+        {
+            "download_url": "https://github.com/tuteken/Keypirinha-Plugin-Ditto/releases/download/v1.0/Ditto.keypirinha-package",
+            "name": "Keypirinha-Plugin-Ditto",
+            "filename": "Ditto.keypirinha-package",
+            "date": "2017-01-06T23:03:53+0000",
+            "description": "This plugin for Keypirinha provides access to saved items in Ditto Clipboard Manager.",
+            "version": "v1.0",
+            "owner": "tuteken",
+            "homepage": "https://github.com/tuteken/Keypirinha-Plugin-Ditto"
+        },
+        {
+            "download_url": "https://github.com/psistorm/keypirinha-heidisql/releases/download/v1.0.1/HeidiSQL.keypirinha-package",
+            "name": "keypirinha-heidisql",
+            "filename": "HeidiSQL.keypirinha-package",
+            "date": "2016-07-04T06:55:11+0000",
+            "description": "Keypirinha plugin to easily start HeidiSQL and HeidiSQL sessions",
+            "version": "v1.0.1",
+            "owner": "psistorm",
+            "homepage": "https://github.com/psistorm/keypirinha-heidisql"
+        },
+        {
+            "download_url": "https://github.com/psistorm/keypirinha-kitty/releases/download/v1.0.5/KiTTY.keypirinha-package",
+            "name": "keypirinha-kitty",
+            "filename": "KiTTY.keypirinha-package",
+            "date": "2018-03-29T08:13:17+0000",
+            "description": "Keypirinha plugin to easily start KiTTY and KiTTY sessions",
+            "version": "v1.0.5",
+            "owner": "psistorm",
+            "homepage": "https://github.com/psistorm/keypirinha-kitty"
+        },
+        {
+            "download_url": "https://github.com/psistorm/keypirinha-systemcommands/releases/download/v1.1/SystemCommands.keypirinha-package",
+            "name": "keypirinha-systemcommands",
+            "filename": "SystemCommands.keypirinha-package",
+            "date": "2016-07-04T06:49:14+0000",
+            "description": "Keypirinha plugin with a bunch of system commands",
+            "version": "v1.1",
+            "owner": "psistorm",
+            "homepage": "https://github.com/psistorm/keypirinha-systemcommands"
+        },
+        {
+            "download_url": "https://github.com/tuteken/Keypirinha-Plugin-Pinboard/releases/download/v1.2/Pinboard.keypirinha-package",
+            "name": "Keypirinha-Plugin-Pinboard",
+            "filename": "Pinboard.keypirinha-package",
+            "date": "2017-01-07T01:14:50+0000",
+            "description": "This plugin for Keypirinha provides access to Internet bookmarks on Pinboard.",
+            "version": "v1.2",
+            "owner": "tuteken",
+            "homepage": "https://github.com/tuteken/Keypirinha-Plugin-Pinboard"
+        },
+        {
+            "download_url": "https://github.com/tuteken/Keypirinha-Plugin-foobar2000/releases/download/1.1/foobar2000.keypirinha-package",
+            "name": "Keypirinha-Plugin-foobar2000",
+            "filename": "foobar2000.keypirinha-package",
+            "date": "2018-11-02T23:18:19+0000",
+            "description": "This plugin for Keypirinha provides control over foorbar2000 music player.",
+            "version": "1.1",
+            "owner": "tuteken",
+            "homepage": "https://github.com/tuteken/Keypirinha-Plugin-foobar2000"
+        },
+        {
+            "download_url": "https://github.com/dozius/keypirinha-snippets/releases/download/1.0.1/Snippets.keypirinha-package",
+            "name": "keypirinha-snippets",
+            "filename": "Snippets.keypirinha-package",
+            "date": "2020-05-09T16:00:49+0000",
+            "description": "A Keypirinha plugin to quickly copy user defined snippets to the clipboard",
+            "version": "1.0.1",
+            "owner": "dozius",
+            "homepage": "https://github.com/dozius/keypirinha-snippets"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-lipsum/releases/download/1.0.2/Lipsum.keypirinha-package",
+            "name": "keypirinha-lipsum",
+            "filename": "Lipsum.keypirinha-package",
+            "date": "2018-03-28T23:11:38+0000",
+            "description": "Keypirinha plugin to generate lorem ipsum text",
+            "version": "1.0.2",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-lipsum"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-sharex/releases/download/1.0.2/ShareX.keypirinha-package",
+            "name": "keypirinha-sharex",
+            "filename": "ShareX.keypirinha-package",
+            "date": "2020-04-23T00:50:31+0000",
+            "description": "Keypirinha plugin to execute ShareX actions",
+            "version": "1.0.2",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-sharex"
+        },
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-WindowsApps/releases/download/0.8.4/WindowsApps.keypirinha-package",
+            "name": "Keypirinha-WindowsApps",
+            "filename": "WindowsApps.keypirinha-package",
+            "date": "2019-12-06T17:48:48+0000",
+            "description": "Lists Universal Windows Apps (formerly Metro Apps) and direct links to several windows 10 settings pages in Keypirinha for launching",
+            "version": "0.8.4",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-WindowsApps"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-gitmoji/releases/download/1.1/Gitmoji.keypirinha-package",
+            "name": "keypirinha-gitmoji",
+            "filename": "Gitmoji.keypirinha-package",
+            "date": "2020-04-23T00:33:03+0000",
+            "description": "Search for gitmoji and copy them to your clipboard",
+            "version": "1.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-gitmoji"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-faker-data/releases/download/1.0.1/FakerData.keypirinha-package",
+            "name": "keypirinha-faker-data",
+            "filename": "FakerData.keypirinha-package",
+            "date": "2020-04-23T01:32:57+0000",
+            "description": "Generate different types of fake data directly from Keypirinha launcher",
+            "version": "1.0.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-faker-data"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-url-shortener/releases/download/1.1/URLShortener.keypirinha-package",
+            "name": "keypirinha-url-shortener",
+            "filename": "URLShortener.keypirinha-package",
+            "date": "2020-04-22T20:31:10+0000",
+            "description": "Shorten your URLs by using multiple services directly through Keypirinha launcher",
+            "version": "1.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-url-shortener"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-moviedb/releases/download/1.0.1/MovieDB.keypirinha-package",
+            "name": "keypirinha-moviedb",
+            "filename": "MovieDB.keypirinha-package",
+            "date": "2018-04-10T17:47:16+0000",
+            "description": "Search through TMDB (themoviedb.org) for movies, TV shows and people.",
+            "version": "1.0.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-moviedb"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-myip/releases/download/1.0/MyIP.keypirinha-package",
+            "name": "keypirinha-myip",
+            "filename": "MyIP.keypirinha-package",
+            "date": "2018-03-29T21:25:43+0000",
+            "description": "Get your public and local IP directly from Keypirinha.",
+            "version": "1.0",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-myip"
+        },
+        {
+            "download_url": "https://github.com/kvnxiao/keypirinha-winsys/releases/download/1.0.1/WinSys.keypirinha-package",
+            "name": "keypirinha-winsys",
+            "filename": "WinSys.keypirinha-package",
+            "date": "2020-04-27T21:46:12+0000",
+            "description": "A Keypirinha plugin with useful system and shell commands for Windows 10.",
+            "version": "1.0.1",
+            "owner": "kvnxiao",
+            "homepage": "https://github.com/kvnxiao/keypirinha-winsys"
+        },
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-Time/releases/download/0.2.1/Time.keypirinha-package",
+            "name": "Keypirinha-Time",
+            "filename": "Time.keypirinha-package",
+            "date": "2018-11-18T16:20:58+0000",
+            "description": "Provides command to convert and format datetime strings",
+            "version": "0.2.1",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-Time"
+        },
+        {
+            "download_url": "https://github.com/DrorHarari/keypirinha-cvt/releases/download/2.2.0/Cvt.keypirinha-package",
+            "name": "keypirinha-cvt",
+            "filename": "Cvt.keypirinha-package",
+            "date": "2020-03-07T02:43:31+0000",
+            "description": "Cvt - A Keypirinha launcher plugin for conversion of units of measure for area, data size, distance, energy, force, fuel consuption, mass, power, pressure, speed, temperature and time",
+            "version": "2.2.0",
+            "owner": "DrorHarari",
+            "homepage": "https://github.com/DrorHarari/keypirinha-cvt"
+        },
+        {
+            "download_url": "https://github.com/malys/keypirinha-rocketchat/releases/download/0.1.1/Rocketchat.keypirinha-package",
+            "name": "keypirinha-rocketchat",
+            "filename": "Rocketchat.keypirinha-package",
+            "date": "2020-02-04T16:58:25+0000",
+            "description": "Rocketchat plugin for keypirinha",
+            "version": "0.1.1",
+            "owner": "malys",
+            "homepage": "https://github.com/malys/keypirinha-rocketchat"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-phpdocsearch/releases/download/1.0.1/PHPDocSearch.keypirinha-package",
+            "name": "keypirinha-phpdocsearch",
+            "filename": "PHPDocSearch.keypirinha-package",
+            "date": "2018-10-16T01:39:54+0000",
+            "description": "Search for functions, classes and everything else related to the PHP documentation directly from Keypirinha launcher",
+            "version": "1.0.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-phpdocsearch"
+        },
+        {
+            "download_url": "https://github.com/Fuhrmann/keypirinha-volumecontrol/releases/download/1.0.1/VolumeControl.keypirinha-package",
+            "name": "keypirinha-volumecontrol",
+            "filename": "VolumeControl.keypirinha-package",
+            "date": "2019-05-20T13:11:48+0000",
+            "description": "Increase, decrease, mute or unmute the volume on Windows using Keypirinha.",
+            "version": "1.0.1",
+            "owner": "Fuhrmann",
+            "homepage": "https://github.com/Fuhrmann/keypirinha-volumecontrol"
+        },
+        {
+            "download_url": "https://github.com/ibnbr/Keypirinha-SapGUI/releases/download/1.1/SapGUI.keypirinha-package",
+            "name": "Keypirinha-SapGUI",
+            "filename": "SapGUI.keypirinha-package",
+            "date": "2019-10-21T14:31:40+0000",
+            "description": "Add SAP GUI / SAP Logon Entries to Keypirinha Catalog",
+            "version": "1.1",
+            "owner": "ibnbr",
+            "homepage": "https://github.com/ibnbr/Keypirinha-SapGUI"
+        },
+        {
+            "download_url": "https://github.com/s-oram/keypirinha-recent_items/releases/download/v1.0.0/RecentItems.keypirinha-package",
+            "name": "keypirinha-recent_items",
+            "filename": "RecentItems.keypirinha-package",
+            "date": "2018-11-06T02:26:04+0000",
+            "description": "Adds the Windows recent items directory contents to the Keypirinha catalog",
+            "version": "v1.0.0",
+            "owner": "s-oram",
+            "homepage": "https://github.com/s-oram/keypirinha-recent_items"
+        },
+        {
+            "download_url": "https://github.com/prayzzz/keypirinha-epoch/releases/download/1.0.0/epoch.keypirinha-package",
+            "name": "keypirinha-epoch",
+            "filename": "epoch.keypirinha-package",
+            "date": "2018-10-16T19:19:33+0000",
+            "description": "Convert a epoch timestamp to various human readable formats",
+            "version": "1.0.0",
+            "owner": "prayzzz",
+            "homepage": "https://github.com/prayzzz/keypirinha-epoch"
+        },
+        {
+            "download_url": "https://github.com/DrorHarari/keypirinha-ppl/releases/download/v0.61/Ppl.keypirinha-package",
+            "name": "keypirinha-ppl",
+            "filename": "Ppl.keypirinha-package",
+            "date": "2019-03-08T01:03:14+0000",
+            "description": "Call and email people easily",
+            "version": "v0.61",
+            "owner": "DrorHarari",
+            "homepage": "https://github.com/DrorHarari/keypirinha-ppl"
+        },
+        {
+            "download_url": "https://github.com/mawiseman/keypirinha-asky/releases/download/1.1/Asky.keypirinha-package",
+            "name": "keypirinha-asky",
+            "filename": "Asky.keypirinha-package",
+            "date": "2019-08-16T01:02:02+0000",
+            "description": "Search for aski art from aski.io and copy them to your clipboard",
+            "version": "1.1",
+            "owner": "mawiseman",
+            "homepage": "https://github.com/mawiseman/keypirinha-asky"
+        },
+        {
+            "download_url": "https://github.com/bantya/Keypirinha-EasySearch/releases/download/2.0.4/EasySearch.keypirinha-package",
+            "name": "Keypirinha-EasySearch",
+            "filename": "EasySearch.keypirinha-package",
+            "date": "2019-03-26T15:57:02+0000",
+            "description": "Keypirinha plugin for faster web searching",
+            "version": "2.0.4",
+            "owner": "bantya",
+            "homepage": "https://github.com/bantya/Keypirinha-EasySearch"
+        },
+        {
+            "download_url": "https://github.com/bantya/Keypirinha-Zealous/releases/download/1.0.2/Zealous.keypirinha-package",
+            "name": "Keypirinha-Zealous",
+            "filename": "Zealous.keypirinha-package",
+            "date": "2019-03-26T15:53:24+0000",
+            "description": "Keypirinha plugin for exploring Zeal docs.",
+            "version": "1.0.2",
+            "owner": "bantya",
+            "homepage": "https://github.com/bantya/Keypirinha-Zealous"
+        },
+        {
+            "download_url": "https://github.com/DrorHarari/keypirinha-rdp/releases/download/v0.1/Rdp.keypirinha-package",
+            "name": "keypirinha-rdp",
+            "filename": "Rdp.keypirinha-package",
+            "date": "2019-03-15T23:41:18+0000",
+            "description": "Keypirinha plugin to launch RDP sessions",
+            "version": "v0.1",
+            "owner": "DrorHarari",
+            "homepage": "https://github.com/DrorHarari/keypirinha-rdp"
+        },
+        {
+            "download_url": "https://github.com/bantya/Keypirinha-Command/releases/download/1.1.0/Command.keypirinha-package",
+            "name": "Keypirinha-Command",
+            "filename": "Command.keypirinha-package",
+            "date": "2020-01-11T19:43:11+0000",
+            "description": "Keypirinha plugin for invoking commands in Command Prompt.",
+            "version": "1.1.0",
+            "owner": "bantya",
+            "homepage": "https://github.com/bantya/Keypirinha-Command"
+        },
+        {
+            "download_url": "https://github.com/andriykrefer/keypirinha-emojii/releases/download/v0.1/Emojii.keypirinha-package",
+            "name": "keypirinha-emojii",
+            "filename": "Emojii.keypirinha-package",
+            "date": "2019-03-27T17:31:40+0000",
+            "description": "Keypirinha Emojii Plugin. Search for emojis and copy them or theirs respective codes in various programming languages.",
+            "version": "v0.1",
+            "owner": "andriykrefer",
+            "homepage": "https://github.com/andriykrefer/keypirinha-emojii"
+        },
+        {
+            "download_url": "https://github.com/samusaran/keypirinha-epiclauncher/releases/download/1.0/EpicLauncher.keypirinha-package",
+            "name": "keypirinha-epiclauncher",
+            "filename": "EpicLauncher.keypirinha-package",
+            "date": "2019-06-04T17:29:43+0000",
+            "description": "Keypirinha Plugin that enables searching and launching Epic Launcher games",
+            "version": "1.0",
+            "owner": "samusaran",
+            "homepage": "https://github.com/samusaran/keypirinha-epiclauncher"
+        },
+        {
+            "download_url": "https://github.com/mx-bernhard/keypirinha-youtrack/releases/download/1.0/youtrack.keypirinha-package",
+            "name": "keypirinha-youtrack",
+            "filename": "youtrack.keypirinha-package",
+            "date": "2019-07-27T12:41:59+0000",
+            "description": "Allows to query youtrack bugtrackers with live autocomplete of possible filter attributes.",
+            "version": "1.0",
+            "owner": "mx-bernhard",
+            "homepage": "https://github.com/mx-bernhard/keypirinha-youtrack"
+        },
+        {
+            "download_url": "https://github.com/Sergix/keypirinha-stackoverflow/releases/download/v0.1.0/StackOverflow.keypirinha-package",
+            "name": "keypirinha-stackoverflow",
+            "filename": "StackOverflow.keypirinha-package",
+            "date": "2019-09-28T04:15:19+0000",
+            "description": "Keypirinha plugin for StackOverflow searching.",
+            "version": "v0.1.0",
+            "owner": "sergix",
+            "homepage": "https://github.com/sergix/keypirinha-stackoverflow"
+        },
+        {
+            "download_url": "https://github.com/marcus-at-localhost/Keypirinha-Recoll/releases/download/v0.1/recoll.keypirinha-package",
+            "name": "Keypirinha-Recoll",
+            "filename": "recoll.keypirinha-package",
+            "date": "2019-10-08T17:52:48+0000",
+            "description": "Full-Text Search in Keypirinha with Recoll Desktop Search",
+            "version": "v0.1",
+            "owner": "marcus-at-localhost",
+            "homepage": "https://github.com/marcus-at-localhost/Keypirinha-Recoll"
+        },
+        {
+            "download_url": "https://github.com/shuGH/keypirinha-codic/releases/download/v1.1/Codic.keypirinha-package",
+            "name": "keypirinha-codic",
+            "filename": "Codic.keypirinha-package",
+            "date": "2019-10-23T15:10:26+0000",
+            "description": "Codic package for Keypirinha.",
+            "version": "v1.1",
+            "owner": "shuGH",
+            "homepage": "https://github.com/shuGH/keypirinha-codic"
+        },
+        {
+            "download_url": "https://github.com/clinden/keypirinha-colorpicker/releases/download/v1.0.0/ColorPicker.keypirinha-package",
+            "name": "keypirinha-colorpicker",
+            "filename": "ColorPicker.keypirinha-package",
+            "date": "2019-11-16T16:18:23+0000",
+            "description": "Simple plugin grabbing the color code under the mouse in Keypirinha",
+            "version": "v1.0.0",
+            "owner": "clinden",
+            "homepage": "https://github.com/clinden/keypirinha-colorpicker"
+        },
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-Updater/releases/download/0.1/Updater.keypirinha-package",
+            "name": "Keypirinha-Updater",
+            "filename": "Updater.keypirinha-package",
+            "date": "2019-12-02T22:59:53+0000",
+            "description": "It checks at startup if your keypirinha installation is up to date and nags you into updating.",
+            "version": "0.1",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-Updater"
+        },
+        {
+            "download_url": "https://github.com/ueffel/Keypirinha-Binary-Flags/releases/download/0.1.1/BinaryFlags.keypirinha-package",
+            "name": "Keypirinha-Binary-Flags",
+            "filename": "BinaryFlags.keypirinha-package",
+            "date": "2020-05-01T21:56:07+0000",
+            "description": "It can disassemble a number into its binary flags.",
+            "version": "0.1.1",
+            "owner": "ueffel",
+            "homepage": "https://github.com/ueffel/Keypirinha-Binary-Flags"
+        },
+        {
+            "download_url": "https://github.com/fran-f/keypirinha-git-fork/releases/download/v1.0/Git-Fork.keypirinha-package",
+            "name": "keypirinha-git-fork",
+            "filename": "Git-Fork.keypirinha-package",
+            "date": "2019-12-11T23:01:32+0000",
+            "description": "A plugin to integrate Keypirinha and Fork",
+            "version": "v1.0",
+            "owner": "fran-f",
+            "homepage": "https://github.com/fran-f/keypirinha-git-fork"
+        },
+        {
+            "download_url": "https://github.com/Torben2000/keypirinha-goggalaxy/releases/download/v1.1.3/goggalaxy.keypirinha-package",
+            "name": "keypirinha-goggalaxy",
+            "filename": "goggalaxy.keypirinha-package",
+            "date": "2020-05-01T12:42:03+0000",
+            "description": "Keypirinha plugin to to launch games via GOG Galaxy 2.0",
+            "version": "v1.1.3",
+            "owner": "Torben2000",
+            "homepage": "https://github.com/Torben2000/keypirinha-goggalaxy"
+        },
+        {
+            "download_url": "https://github.com/mvelikikh/Keypirinha-Plugin-SQLPlus/releases/download/1.0/sqlplus.keypirinha-package",
+            "name": "Keypirinha-Plugin-SQLPlus",
+            "filename": "sqlplus.keypirinha-package",
+            "date": "2019-06-01T12:16:04+0000",
+            "description": "Keypirinha plugin to easily start SQL*Plus session and lookup tnsnames.ora",
+            "version": "1.0",
+            "owner": "mvelikikh",
+            "homepage": "https://github.com/mvelikikh/Keypirinha-Plugin-SQLPlus"
+        },
+        {
+            "download_url": "https://github.com/SergAtGitHub/keypirinha-showtime/releases/download/1.0.0/ShowTime.keypirinha-package",
+            "name": "keypirinha-showtime",
+            "filename": "ShowTime.keypirinha-package",
+            "date": "2019-09-21T17:13:41+0000",
+            "description": "Having fun with showing current time in keypirinha",
+            "version": "1.0.0",
+            "owner": "SergAtGitHub",
+            "homepage": "https://github.com/SergAtGitHub/keypirinha-showtime"
+        },
+        {
+            "download_url": "https://github.com/benmetheny/keypirinha-conemu/releases/download/0.2/ConEmu.keypirinha-package",
+            "name": "keypirinha-conemu",
+            "filename": "ConEmu.keypirinha-package",
+            "date": "2020-04-24T23:26:25+0000",
+            "description": "no description",
+            "version": "0.2",
+            "owner": "benmetheny",
+            "homepage": "https://github.com/benmetheny/keypirinha-conemu"
+        },
+        {
+            "download_url": "https://github.com/fran-f/keypirinha-terminal-profiles/releases/download/v1.0/Terminal-Profiles.keypirinha-package",
+            "name": "keypirinha-terminal-profiles",
+            "filename": "Terminal-Profiles.keypirinha-package",
+            "date": "2020-05-12T17:57:44+0000",
+            "description": "A plugin to integrate Keypirinha and Windows Terminal",
+            "version": "v1.0",
+            "owner": "fran-f",
+            "homepage": "https://github.com/fran-f/keypirinha-terminal-profiles"
+        },
+        {
+            "download_url": "https://github.com/josbalcaen/keypirinha-symbols/releases/download/v1.0/Symbols.keypirinha-package",
+            "name": "keypirinha-symbols",
+            "filename": "Symbols.keypirinha-package",
+            "date": "2020-05-15T19:02:56+0000",
+            "description": "A symbol plugin for the Keypirinha launcher",
+            "version": "v1.0",
+            "owner": "josbalcaen",
+            "homepage": "https://github.com/josbalcaen/keypirinha-symbols"
+        }
+    ]
+}
