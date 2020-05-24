@@ -1,0 +1,5 @@
+Outstanding Tasks
+=================
+
+1. VS Code configuration. Either ensure Settings Sync extension works, or replace it.
+2. Automate config backups.
