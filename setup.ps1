@@ -34,12 +34,16 @@ Install-Package Use-RawPipeline
 # Install scoop
 
 Invoke-WebRequest -UseBasicParsing get.scoop.sh | Invoke-Expression
-scoop update
 scoop install git
+scoop update
+scoop update *
+scoop bucket add extras
 scoop bucket add enk https://github.com/pfmoore/scoop-enk
 scoop bucket add pipx https://github.com/uranusjr/pipx-standalone
 
-scoop install 7zip
+# Installed as a prerequisite for git
+# scoop install 7zip
+
 scoop install bat
 scoop install curl
 scoop install fd
@@ -78,3 +82,6 @@ pipx install pipenv
 pipx install shiv
 pipx install tox
 pipx install virtualenv
+
+# The following need configuring:
+#   7-zip
