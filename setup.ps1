@@ -84,4 +84,9 @@ pipx install tox
 pipx install virtualenv
 
 # The following need configuring:
-#   7-zip
+#   7-zip:
+#       Associations
+#       Editor = C:\Users\...\gvim.exe
+#   vim:
+#       copy -rec dotfiles/volt ~/volt
+#       volt get -l
