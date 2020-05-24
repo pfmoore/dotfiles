@@ -41,6 +41,9 @@ scoop bucket add extras
 scoop bucket add enk https://github.com/pfmoore/scoop-enk
 scoop bucket add pipx https://github.com/uranusjr/pipx-standalone
 
+# Persistent data
+# Copy persist from dotfiles to ~/scoop
+
 # Installed as a prerequisite for git
 # scoop install 7zip
 
@@ -68,6 +71,9 @@ scoop install cyg
 scoop install volt
 scoop install vim
 
+scoop install keepass
+scoop install keepass-plugin-keeanywhere
+
 scoop install pipx
 
 pipx install black
@@ -90,3 +96,8 @@ pipx install virtualenv
 #   vim:
 #       copy -rec dotfiles/volt ~/volt
 #       volt get -l
+#   keepass:
+#       Open database from Google Cloud
+#   VS Code:
+#       Install Settings Sync
+#       Configure it with info from keepass
