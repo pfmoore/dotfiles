@@ -25,26 +25,33 @@ if ($Temp) {
     } -args $name
 }
 
-$ve_exists = (Test-Path -PathType Leaf ./.venv/pyvenv.cfg)
-
 if ($Create) {
-    if ($ve_exists) {
+    if (Test-Path -PathType Leaf ./.venv/pyvenv.cfg) {
         Write-Error ".venv exists - cannot create it"
         return
     }
     virtualenv .venv
 }
 
+$dir = $PWD
+while ($dir) {
+    if (Test-Path -PathType Leaf "$dir/.venv/pyvenv.cfg") {
+        $venv = (Join-Path $dir .venv)
+        break
+    }
+    $dir = (Split-Path -Parent $dir)
+}
+
 if ($Activate) {
-    if (!$ve_exists) {
+    if (!$venv) {
         Write-Error ".venv does not exist"
         return
     }
-    . .venv/Scripts/Activate.ps1
+    . "$venv/Scripts/Activate.ps1"
 }
 
 if ($ScriptBlock) {
-    if (!$ve_exists) {
+    if (!$venv) {
         Write-Error ".venv does not exist"
         & $ScriptBlock
         return
@@ -54,8 +61,8 @@ if ($ScriptBlock) {
     $oldpath = $env:PATH
     $oldvenv = $env:VIRTUAL_ENV
     try {
-        $env:PATH = (Resolve-Path .venv/Scripts).Path + ';' + $env:PATH
-        $env:VIRTUAL_ENV = (Resolve-Path .venv).Path
+        $env:PATH = (Resolve-Path "$venv/Scripts").Path + ';' + $env:PATH
+        $env:VIRTUAL_ENV = (Resolve-Path $venv).Path
         & $ScriptBlock
     }
     finally {
