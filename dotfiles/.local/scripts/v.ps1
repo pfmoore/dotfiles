@@ -3,6 +3,7 @@ param(
     [Switch]$Activate,
     [Switch]$Create,
     [Switch]$Temp,
+    [Switch]$Shell,
     [ScriptBlock]$ScriptBlock
 )
 
@@ -48,6 +49,18 @@ if ($Activate) {
         return
     }
     . "$venv/Scripts/Activate.ps1"
+}
+
+if ($Shell) {
+    if (!$venv) {
+        Write-Error ".venv does not exist"
+        return
+    }
+    & (Get-Process -Id $pid).Path -NoExit {
+        param($venv)
+        Write-Host -ForegroundColor Cyan "Launching nested prompt in virtual environment. Type 'exit' to return."
+        & (Join-Path $venv "Scripts" "activate.ps1")
+    } -args $venv
 }
 
 if ($ScriptBlock) {
