@@ -90,30 +90,21 @@ class PEPs(kp.Plugin):
 
 
     def on_catalog(self):
-        self.set_catalog([self.create_item(
-            category=kp.ItemCategory.KEYWORD,
-            label="PEP:",
-            short_desc="Python PEPs",
-            target="PEP",
-            args_hint=kp.ItemArgsHint.REQUIRED,
-            hit_hint=kp.ItemHitHint.KEEPALL,
-        )])
-
-    def on_suggest(self, user_input, items_chain):
-        if not items_chain or items_chain[-1].category() != kp.ItemCategory.KEYWORD:
-            return
-
-        suggestions = []
-        for num, desc in self.PEPs:
-            suggestions.append(self.create_item(
+         self.set_catalog([
+            self.create_item(
                 category=self.ITEMCAT_RESULT,
                 label="PEP {}: {}".format(num, desc),
                 short_desc=desc,
                 target="https://www.python.org/dev/peps/pep-{:04d}/".format(num),
                 args_hint=kp.ItemArgsHint.FORBIDDEN,
-                hit_hint=kp.ItemHitHint.IGNORE,
-            ))
-        self.set_suggestions(suggestions)
+                hit_hint=kp.ItemHitHint.KEEPALL,
+            )
+            for num, desc in self.PEPs
+        ])
+
+    def on_suggest(self, user_input, items_chain):
+        if not items_chain or items_chain[-1].category() != kp.ItemCategory.KEYWORD:
+            return
 
     def on_execute(self, item, action):
         self.dbg(action.name() if action else "No action")
