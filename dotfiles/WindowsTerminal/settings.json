@@ -14,8 +14,13 @@
         "defaults":
         {
             "startingDirectory" : "%WORK_DIRECTORY%",
-            "backgroundImage": "ms-appdata:///Local/desk-without-paper.png",
-            "backgroundImageOpacity": 0.3
+            //"backgroundImage": "ms-appdata:///Local/desk-without-paper.png",
+            //"backgroundImageOpacity": 0.3,
+            "background" : "#373B3E",
+            "backgroundImage" : "ms-appdata:///local/miku.png",
+            "backgroundImageAlignment" : "bottomRight",
+            "backgroundImageOpacity" : 0.3,
+            "backgroundImageStretchMode" : "uniform"
         },
         "list":
         [
