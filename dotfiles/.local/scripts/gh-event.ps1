@@ -4,7 +4,11 @@ param(
 )
 
 $origin = (git remote get-url origin)
-$token = ("url=$origin" | git credential fill | ConvertFrom-StringData).Password
+$out = ("url=origin" | git credential fill 2>&1)
+if ($LASTEXITCODE -ne 0) {
+    throw $out
+}
+$token = ($out | ConvertFrom-StringData).Password
 $url = "https://api.github.com/repos$(([URI]$origin).LocalPath)/dispatches"
 
 $headers = @{
