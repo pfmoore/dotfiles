@@ -10,6 +10,28 @@ Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
+# Set console history. Workaround for the fact that Windows
+# Terminal does not use the system-defined global settings.
+if (gcm -ea 0 py) {
+    # Sets 32 buffers, size 512, with "discard old duplicates" not set
+    # The magic byte string was calculated using:
+    #
+    # import ctypes
+    # from ctypes import wintypes
+    # class CONSOLE_HISTORY_INFO(ctypes.Structure):
+    #     _fields_ = (('cbSize', wintypes.UINT),
+    #                 ('HistoryBufferSize', wintypes.UINT),
+    #                 ('NumberOfHistoryBuffers', wintypes.UINT),
+    #                 ('dwFlags', wintypes.DWORD))
+    #     def __init__(self, *args, **kwds):
+    #         super().__init__(ctypes.sizeof(self), *args, **kwds)
+    # i = CONSOLE_HISTORY_INFO(512, 32, 0)
+    # ctypes.string_at(ctypes.byref(i), ctypes.sizeof(i))
+
+    py -c "import ctypes; ctypes.windll.kernel32.SetConsoleHistoryInfo(b'\x10\x00\x00\x00\x00\x02\x00\x00 \x00\x00\x00\x00\x00\x00\x00')"
+}
+
+
 # Load modules that I like
 # ========================
 
