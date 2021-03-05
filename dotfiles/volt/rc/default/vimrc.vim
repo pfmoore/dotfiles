@@ -146,6 +146,8 @@ nmap <Leader><Left> :bp<CR>
 nmap <Leader><Right> :bn<CR>
 
 " Diffsplit this buffer vs the on-disk copy.
+command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
+"
 " Could also do this by loading the on-disk version into a new scratch
 " buffer (how? :0r is the best, I think...) and then doing :diffthis
 " on both buffers...
